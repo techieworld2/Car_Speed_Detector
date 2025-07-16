@@ -1,0 +1,12 @@
+LINE_PROXIMITY = 30
+SPEED_LIMIT = 40  # km/h
+PIXELS_PER_METER = 8
+MPS_TO_KMPH = 3.6
+
+
+INPUT_VIDEO = "input/cars.mp4"
+OUTPUT_VIDEO = "output/output_speed_check.avi"
+FRAME_SIZE = (640, 360)
+
+
+CONFIDENCE_THRESHOLD = 0.5
