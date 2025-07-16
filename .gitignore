@@ -1,5 +1,7 @@
 __pycache__/
-*.mp4
 *.avi
 *.jpg
 output/
+*.mp4
+!input/
+!input/*.mp4
