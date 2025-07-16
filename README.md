@@ -1,17 +1,17 @@
 
-# 🚗 Car Speed Detector using YOLOv8
+# Car Speed Detector using YOLOv8
 
 A Python-based vehicle speed detection system that uses **YOLOv8 object detection** to track vehicles in a video, calculate their speed, and classify them as **Passed** or **Failed** based on a speed threshold.
 
 ---
 
-## 📸 Demo Output
+## Demo Output
 
 - Draws a detection line on video.
 - Tracks vehicles and calculates their speed using distance between frames.
 - Classifies each vehicle as:
-  - ✅ `Passed` (within speed limit)
-  - ❌ `Failed` (over speed limit)
+  - `Passed` (within speed limit)
+  - `Failed` (over speed limit)
 - Annotates video with:
   - Bounding boxes
   - Speed labels
@@ -22,7 +22,7 @@ A Python-based vehicle speed detection system that uses **YOLOv8 object detectio
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - OpenCV
@@ -30,7 +30,7 @@ A Python-based vehicle speed detection system that uses **YOLOv8 object detectio
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 car_speed_detector/
@@ -53,7 +53,7 @@ car_speed_detector/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Loads the video and detects cars frame-by-frame.
 2. Tracks each vehicle using YOLOv8 object tracking.
@@ -69,7 +69,7 @@ speed = (pixel_distance / PIXELS_PER_METER) * FPS * 3.6
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### 1. Install Requirements
 
@@ -94,7 +94,7 @@ python main.py
 
 ---
 
-## 🧾 Configuration
+## Configuration
 
 Edit `config.py` to change:
 
@@ -104,7 +104,7 @@ Edit `config.py` to change:
 
 ---
 
-## 🛑 Limitations
+## Limitations
 
 - Assumes a fixed camera angle.
 - Speed is estimated using pixel displacement — **not GPS-accurate**.
@@ -112,7 +112,7 @@ Edit `config.py` to change:
 
 ---
 
-## 🙌 Credits
+## Credits
 
 Built with:
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
@@ -120,6 +120,4 @@ Built with:
 
 ---
 
-## 📃 License
 
-This project is licensed under the MIT License.
